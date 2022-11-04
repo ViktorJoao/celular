@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    background-color: #BF8B5E;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+header > h1{
+    
+    width: 100vw;
+    font-variant: small-caps;
+    text-shadow: 1px 1px 8px rgba(46, 45, 45, 0.596);
+    
+}
+main{
+    background-color: green;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background: url('../imagens/fundo.jpg') no-repeat
+    top center fixed;
+    
+    background-size: cover;
+    box-shadow: inset 1px 1px 10px rgba(0, 0, 0, 0.527);
+}
+#telefone{
+    width: 305px;
+    height: 618px;
+    background: url('../imagens/celular-n.png') no-repeat
+    top center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#tela{
+    position: relative;
+    left: 10px;
+    top: 61px;
+    width: 278px;
+    height: 485px;
+    
+}
+#redes-sociais img{
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    border: 2px solid rgba(59, 58, 58, 0.466);
+    box-shadow: 2px 2px 8px black;
+}
+#redes-sociais img:hover{
+    border: 2px solid white;
+    transition: .1s;
+    transform: translate(-2px, -2px);
+}
+#redes-sociais{
+    text-align: right;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+footer{
+    padding: 20px;
+    background-color: #BF8B5E;
+    color: white;
+    text-align: center;
+}
